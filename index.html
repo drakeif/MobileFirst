@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container-wide">
+                <button class="toggle-nav" 
+                aria-controls="nav"
+                aria-expanded="false"
+                aria-label="Відкрити меню">
+                    <img src="./img/menu.svg" alt="menu">
+                </button>
+                <nav class="nav" id="nav">
+                    <a class="nav__item" href="#works">Works</a>
+                    <a class="nav__item" href="#blog">Blog</a>
+                    <a class="nav__item" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="hero">
+                <div class="hero__img">
+                    <img src="./img/portret.png" alt="portret">
+                </div>
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, I am John,
+                        Creative Technologist
+                    </h1>
+                    <p class="hero__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <a href="#!" class="btn">Download resume</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sect sect--colored" id="blog">
+        <div class="container">
+            <div class="sect__head">
+                <h2 class="sect__title">Recent post</h2>
+                <a href="#!" class="sect__view-all">View all</a>
+            </div>
+
+            <div class="posts">
+                <article class="post">
+                    <h3 class="post__title">
+                        <a href="#!">Making a design system from scratch</a>
+                    </h3>
+
+                    <div class="post__info">
+                        <time datetime="2021-02-12">12 Feb 2021</time>
+                        <div class="post__categories">
+                            <a href="#!">Design</a>
+                            <a href="#!">Pattern</a>
+                        </div>
+                    </div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </article>
+
+                <article class="post">
+                    <h3 class="post__title">
+                        <a href="#!">Making a design system from scratch</a>
+                    </h3>
+
+                    <div class="post__info">
+                        <time datetime="2021-02-12">12 Feb 2021</time>
+                        <div class="post__categories">
+                            <a href="#!">Design</a>
+                            <a href="#!">Pattern</a>
+                        </div>
+                    </div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect" id="works">
+        <div class="container">
+            <div class="sect__head">
+                <h2 class="sect__title">Featured works</h2>
+                <a href="#!" class="sect__view-all">View all</a>
+            </div>
+
+            <div class="works">
+                <article class="work">
+                    <div class="work__img">
+                        <img src="./img/work-1.jpg" alt="work-1">
+                    </div>
+
+                    <div class="work__content">
+                        <h3 class="work__title">
+                            <a href="#!">Designing Dashboards</a>
+                        </h3>
+                        <div class="work__info">
+                            <time datetime="2021">2021</time>
+                            <div class="work__categories">
+                                <a href="#!">Dashboard</a>
+                            </div>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="work">
+                    <div class="work__img">
+                        <img src="./img/work-2.jpg" alt="work-1">
+                    </div>
+
+                    <div class="work__content">
+                        <h3 class="work__title">
+                            <a href="#!">Vibrant Portraits of 2020</a>
+                        </h3>
+                        <div class="work__info">
+                            <time datetime="2020">2020</time>
+                            <div class="work__categories">
+                                <a href="#!">Dashboard</a>
+                            </div>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="work">
+                    <div class="work__img">
+                        <img src="./img/work-3.jpg" alt="work-1">
+                    </div>
+
+                    <div class="work__content">
+                        <h3 class="work__title">
+                            <a href="#!">36 Days of Malayalam type</a>
+                        </h3>
+                        <div class="work__info">
+                            <time datetime="2021">2019</time>
+                            <div class="work__categories">
+                                <a href="#!">Dashboard</a>
+                            </div>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="social footer__social">
+                    <a class="social__icon" href="#!" aria-label="facebook link"><img src="./img/fb.svg" alt="facebook"></a>
+                    <a class="social__icon" href="#!" aria-label="instagram link"><img src="./img/insta.svg" alt="instagram"></a>
+                    <a class="social__icon" href="#!" aria-label="twitter link"><img src="./img/twitter.svg" alt="twitter"></a>
+                    <a class="social__icon" href="#!" aria-label="linkedin link"><img src="./img/linkedin.svg" alt="in"></a>
+                </div>
+                <p class="copy">Copyright ©2020 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
